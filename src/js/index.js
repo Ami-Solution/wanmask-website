@@ -38,7 +38,7 @@ function updateDownloadLinks(text, url){
 
 function injectMascot(){
   // get container from DOM
-  var container = document.getElementById('logo-container')
+  // DISABLE var container = document.getElementById('logo-container')
 
   if (!container) return
 
