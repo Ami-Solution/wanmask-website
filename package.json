@@ -1,7 +1,7 @@
 {
-  "name": "metamask-landing",
+  "name": "wanmask-landing",
   "version": "0.0.2",
-  "description": "MetaMask Landing Page",
+  "description": "WanMask Landing Page",
   "main": "index.html",
   "scripts": {
     "start": "node server.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MetaMask/landing.git"
+    "url": "git+https://github.com/Tyrion70/website.git"
   },
-  "author": "kumavis",
+  "author": "tyrion70",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MetaMask/landing/issues"
+    "url": "https://github.com/Tyrion70/Website/issues"
   },
-  "homepage": "https://github.com/MetaMask/landing#readme",
+  "homepage": "https://github.com/Tyrion70/Website#readme",
   "dependencies": {
     "detect-browser": "^2.0.0",
     "node-static": "^0.7.7"
