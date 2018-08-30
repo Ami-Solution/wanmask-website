@@ -98,7 +98,8 @@ function buildStatic(cb) {
     attributions:   bind(fsExtra.copy, './src/attributions.html', './dist/attributions.html'),
 
 
-    goog:           bind(fsExtra.copy, './src/google3bfcd95a7b5008a9.html', './dist/google3bfcd95a7b5008a9.html'),
+    goog1:           bind(fsExtra.copy, './src/google6295ecc1dd135771.html', './dist/google6295ecc1dd135771.html'),
+    goog2:           bind(fsExtra.copy, './src/googlecce3410b890f7628.html', './dist/googlecce3410b890f7628.html'),
   }, cb)
 
 }
