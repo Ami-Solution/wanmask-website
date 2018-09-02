@@ -1,23 +1,24 @@
 {
-  "name": "wanmask-landing",
+  "name": "wanmask-website",
   "version": "0.0.2",
-  "description": "WanMask Landing Page",
+  "description": "WanMask Website",
   "main": "index.html",
   "scripts": {
     "start": "node server.js",
     "build": "node build.js",
-    "deploy": "npm run build && docker-compose pull && docker-compose build && docker-compose stop && docker-compose up -d && docker-compose logs --tail 200"
+    "deploy": "npm run build && docker-compose pull && docker-compose build && docker-compose stop && docker-compose up -d && docker-compose logs --tail 200",
+    "test": "echo Success! No tests defined yet"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tyrion70/website.git"
+    "url": "git+https://github.com/TyrionShared/website.git"
   },
   "author": "tyrion70",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tyrion70/Website/issues"
+    "url": "https://github.com/TyrionShared/Website/issues"
   },
-  "homepage": "https://github.com/Tyrion70/Website#readme",
+  "homepage": "https://github.com/TyrionShared/Website#readme",
   "dependencies": {
     "detect-browser": "^2.0.0",
     "node-static": "^0.7.7"
